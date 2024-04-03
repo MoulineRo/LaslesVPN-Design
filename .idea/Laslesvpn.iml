@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="style-svg" level="application" />
+    <orderEntry type="library" name="svgxuse" level="application" />
   </component>
 </module>

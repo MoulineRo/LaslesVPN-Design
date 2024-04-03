@@ -2,423 +2,260 @@ $margin-left: 150px;
 $margin-top: 50px;
 
 
-.body {
-  width: 1440px;
-  height: 5189px;
-  background: #FFFFFF;
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: $margin-top;
   font-family: "Rubik", sans-serif;
 
-  .header {
-    display: flex;
-    align-items: center;
-    margin-top: $margin-top;
-
-
-    .header__logo {
-      margin-left: $margin-left;
-      width: 149px;
-      height: 36.23px;
-      font-weight: 500;
-    }
-
-    .menu {
-      display: flex;
-      align-content: center;
-      font-weight: 400;
-
-      &:first-child {
-        margin-left: 157px;
-      }
-
-      &:not(:first-child) {
-        margin-left: 40px;
-
-      }
-
-    }
-
-    .header_btn_in {
-      margin-left: $margin-left;
-      font-weight: 500;
-      text-decoration: none;
-      color: #0B132A;
-    }
-
-    .line_out {
-      margin-left: 75px;
-      border-radius: 50px;
-      border: solid 1px #F53855;
-      text-decoration: none;
-      width: 150px;
-      height: 45px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #F53855;
-      font-weight: 500;
-
-      .header_btn_out {
-        text-decoration: none;
-        margin-left: 45px;
-
-
-      }
-    }
-
-  }
-
-  .vpn-hero {
-
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
+  .header__logo {
     margin-left: $margin-left;
-
-    .vpn-hero__img {
-      margin-top: 101.49px;
-    }
-
-    .vpn-hero__desc {
-      width: 555px;
-      height: 140px;
-      font-size: 50px;
-      line-height: 70px;
-      font-weight: 500;
-      color: #0B132A;
-
-      margin-top: 27.66px;
-    }
-
-    .vpn-hero__about {
-      height: 60px;
-      width: 555px;
-      margin-top: 20px;
-      color: #4F5665;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 30px;
-    }
-
-    .line_out_btn {
-      margin-top: 50px;
-      font-weight: 500;
-      text-decoration: none;
-      border-radius: 10px;
-      border: solid 1px #F53838;
-      background: #F53838;
-      width: 250px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #FFFFFF;
-      transition: box-shadow 0.3s ease;
-
-      &:hover {
-        box-shadow: 0 14px 10px rgba(245, 56, 56, 0.35);
-      }
-
-      .vpn-hero__btn {
-        text-decoration: none;
-        margin-left: 45px;
-      }
-
-    }
-
+    width: 149px;
+    height: 36.23px;
+    font-weight: 500;
   }
 
-  .common-info {
-    position: relative;
-    width: 1140px;
-    height: 200px;
-    margin-left: $margin-left;
-    margin-top: 103px;
+  .menu {
     display: flex;
-    align-items: center;
-
-    .common-info__quantity {
-      display: flex;
-      align-items: center;
-
-      .common-info__quantity_pic {
-        margin-left: 91px;
-      }
-
-      .common-info__quantity_h3 {
-        margin-left: 36.5px;
-        font-weight: 700;
-        color: #0B132A;
-
-      }
-
-      .common-info__quantity_h4 {
-        margin-top: -12px;
-        margin-left: 36.5px;
-        font-weight: 400;
-        color: #4F5665;
-      }
-
-    }
-
-    .delimiter {
-      border: 2px;
-      color: #EEEFF2;
-      margin-left: 129px;
-    }
-
-    .common-info__rec_white {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-    }
-
-    .common-info__shy_grey {
-      position: absolute;
-      top: 70px;
-      left: 0;
-      width: 1140px;
-      height: 189.22px;
-      margin-top: 50px;
-      z-index: -2;
-
-
-    }
-
-  }
-
-  .illustration2 {
-    flex-direction: row;
-    margin-top: 150px;
-  }
-
-  .vpn-hero__success {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-
-    .vpn-hero__success_desc {
-      margin-left: 10.08px;
-      font-weight: 400;
-      color: #4F5665;
-    }
-  }
-
-  .vpn-hero__success_desc_plan {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-
-    .vpn-hero__success_desc_plan_item {
-      margin-left: 10.08px;
-      font-weight: 400;
-      color: #4F5665;
-    }
-  }
-
-  .describe_plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 80.27px;
-
-    .describe_plan__title {
-      font-weight: 500;
-      font-size: 35px;
-      line-height: 50px;
-      width: 384px;
-      height: 50px;
-    }
-
-    .describe_plan__desc {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 30px;
-      width: 555px;
-      height: 60px;
-      color: #4F5665;
-    }
-  }
-
-  .choose_plan {
-    display: flex;
-    justify-content: space-around;
-
-
-    .box {
-      margin-left: $margin-left;
-      width: 330px;
-      height: 860px;
-      border: solid 2px #DDDDDD;
-      border-radius: 10px;
-      text-align: center;
-      transition: box-shadow 0.3s ease;
-
-      &:hover {
-        box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35),
-        -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
-      }
-
-      .choose_plan__box_pic {
-        margin-top: 79.63px;
-      }
-    }
-
-    .box-pay {
-      flex-direction: column;
-      top: 2575px;
-      position: absolute;
-      font-size: 25px;
-      line-height: 30px;
-
-
-      .price {
-        font-weight: 500;
-        color: #0B132A; /* цвет для цены */
-      }
-
-      .duration {
-        font-weight: 400;
-        color: #4F5665; /* цвет для продолжительности */
-
-      }
-
-
-    }
-
-    .select-button-outline {
-      top: 2655px;
-      position: absolute;
-      width: 178px;
-      height: 45px;
-      border: solid 2px #F53838;
-      border-radius: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-weight: 700;
-      color: #F53838;
-      transition: box-shadow 0.3s ease;
-
-      &:hover {
-        box-shadow: 0 14px 10px rgba(245, 56, 56, 0.35);
-      }
-    }
-
-  }
-
-  .illustration3-direction {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 150px;
-  }
-
-  .Sponsored-direction {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 0;
-  }
-
-
-  .rect {
-    width: 450px;
-    border-radius: 10px;
-    border: solid 2px #DDDDDD;
-    margin-top: 60px;
-    transition: box-shadow 0.3s ease;
-
-    &:hover {
-      box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35),
-      -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
-    }
+    align-content: center;
+    font-weight: 400;
 
     &:first-child {
-      margin-left: 60px;
+      margin-left: 157px;
     }
 
     &:not(:first-child) {
-      margin-left: 50px;
+      margin-left: 40px;
 
     }
 
-
   }
 
-  .rect-row_h3 {
-    margin-left: 15px;
-    font-size: 18px;
+  .header_btn_in {
+    margin-left: $margin-left;
     font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 0;
-
-  }
-
-  .rect-row_h4 {
-    margin-left: 15px;
-    margin-top: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #4F5665;
-
-  }
-
-  .feedback-about {
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    color: #0B132A;
-    font-weight: 400;
-    line-height: 30px;
-    font-size: 16px;
-
-  }
-
-  .rect-row-new {
-    display: flex;
-    align-items: center;
-
-  }
-
-  .rect-row {
-    display: flex;
-    align-items: center;
-  }
-
-  .rect-row_h3-capt {
-    margin-right: 15px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
+    text-decoration: none;
     color: #0B132A;
   }
 
-  .feedback-body {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .pagination {
-    display: flex;
-    margin-left: 30px;
-    margin-top: 50px;
-  }
-
-  .radius {
-    width: 60px;
-    height: 60px;
-    border: solid 2px #F53838;
-    border-radius: 50%;
-    color: #F53838;
-    text-align: center;
+  .line_out {
+    margin-left: 75px;
+    border-radius: 50px;
+    border: solid 1px #F53855;
+    text-decoration: none;
+    width: 150px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    color: #F53855;
+    font-weight: 500;
+
+    .header_btn_out {
+      text-decoration: none;
+      margin-left: 45px;
+
+
+    }
+  }
+
+}
+
+.vpn-hero {
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: $margin-left;
+  font-family: "Rubik", sans-serif;
+
+  .vpn-hero__img {
+    margin-top: 101.49px;
+  }
+
+  .vpn-hero__desc {
+    width: 555px;
+    height: 140px;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #0B132A;
+
+    margin-top: 27.66px;
+  }
+
+  .vpn-hero__about {
+    height: 60px;
+    width: 555px;
+    margin-top: 20px;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .line_out_btn {
+    margin-top: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 1px #F53838;
+    background: #F53838;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 14px 10px rgba(245, 56, 56, 0.35);
+    }
+
+    .vpn-hero__btn {
+      text-decoration: none;
+      margin-left: 45px;
+    }
+
+  }
+
+}
+
+.common-info {
+  position: relative;
+  width: 1140px;
+  height: 200px;
+  margin-left: $margin-left;
+  margin-top: 103px;
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+
+  .common-info__quantity {
+    display: flex;
+    align-items: center;
+
+    .common-info__quantity_pic {
+      margin-left: 91px;
+    }
+
+    .common-info__quantity_h3 {
+      margin-left: 36.5px;
+      font-weight: 700;
+      color: #0B132A;
+
+    }
+
+    .common-info__quantity_h4 {
+      margin-top: -12px;
+      margin-left: 36.5px;
+      font-weight: 400;
+      color: #4F5665;
+    }
+
+  }
+
+  .delimiter {
+    border: 2px;
+    color: #EEEFF2;
+    margin-left: 129px;
+  }
+
+  .common-info__rec_white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .common-info__shy_grey {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 1140px;
+    height: 189.22px;
+    margin-top: 50px;
+    z-index: -2;
+
+
+  }
+
+}
+
+.illustration2 {
+  font-family: "Rubik", sans-serif;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+.vpn-hero__success {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+
+  .vpn-hero__success_desc {
+    margin-left: 10.08px;
+    font-weight: 400;
+    color: #4F5665;
+  }
+}
+
+.vpn-hero__success_desc_plan {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+
+  .vpn-hero__success_desc_plan_item {
+    margin-left: 10.08px;
+    font-weight: 400;
+    color: #4F5665;
+  }
+}
+
+.describe_plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 80.27px;
+  font-family: "Rubik", sans-serif;
+
+  .describe_plan__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    width: 384px;
+    height: 50px;
+  }
+
+  .describe_plan__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 555px;
+    height: 60px;
+    color: #4F5665;
+  }
+}
+
+.choose_plan {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Rubik", sans-serif;
+
+
+  .box {
+    margin-left: $margin-left;
+    width: 330px;
+    height: 860px;
+    border: solid 2px #DDDDDD;
+    border-radius: 10px;
+    text-align: center;
     transition: box-shadow 0.3s ease;
 
     &:hover {
@@ -426,119 +263,298 @@ $margin-top: 50px;
       -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
     }
 
-  }
-
-  .material-symbols-outlined {
-    cursor: pointer;
-  }
-
-  .radius:not(:last-child) {
-    margin-left: 1000px;
-  }
-
-  .radius:last-child {
-    background: #F53838;
-    color: #FFFFFF;
-  }
-
-  .radius + .radius {
-    margin-left: 20px;
-  }
-
-  .subscriber {
-    display: flex; /* Устанавливаем контейнер flex */
-    flex-direction: row-reverse; /* Располагаем элементы в ряд */
-    align-items: center; /* Выравниваем элементы по вертикали */
-    justify-content: space-around;
-
-
-    .vpn-hero__desc_all {
-      margin-left: $margin-left;
-      margin-top: 124px;
-
-      .vpn-hero__desc_1 {
-        width: 372px;
-        height: 80px;
-        font-size: 35px;
-        line-height: 45px;
-      }
-
-      .vpn-hero__about_2 {
-        width: 410px;
-        height: 16px;
-        font-size: 16px;
-        line-height: 30px;
-        color: #4F5665;
-
-      }
+    .choose_plan__box_pic {
+      margin-top: 79.63px;
     }
   }
 
-  .main-footer {
-    width: 1510px;
-    background: #F8F8F8;
+  .box-pay {
+    flex-direction: column;
+    top: 2575px;
+    position: absolute;
+    font-size: 25px;
+    line-height: 30px;
+
+
+    .price {
+      font-weight: 500;
+      color: #0B132A; /* цвет для цены */
+    }
+
+    .duration {
+      font-weight: 400;
+      color: #4F5665; /* цвет для продолжительности */
+
+    }
+
+
+  }
+
+  .select-button-outline {
+    top: 2655px;
+    position: absolute;
+    width: 178px;
+    height: 45px;
+    border: solid 2px #F53838;
+    border-radius: 50px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #F53838;
+    transition: box-shadow 0.3s ease;
 
-    .header__logo-foot {
-      margin-left: $margin-left;
-      margin-top: 122px;
+    &:hover {
+      box-shadow: 0 14px 10px rgba(245, 56, 56, 0.35);
+    }
+  }
+
+}
+
+.illustration3-direction {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Rubik", sans-serif;
+}
+
+.Sponsored-direction {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+
+.rect {
+  width: 450px;
+  border-radius: 10px;
+  border: solid 2px #DDDDDD;
+  margin-top: 60px;
+  transition: box-shadow 0.3s ease;
+  font-family: "Rubik", sans-serif;
+
+  &:hover {
+    box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35),
+    -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
+  }
+
+  &:first-child {
+    margin-left: 60px;
+  }
+
+  &:not(:first-child) {
+    margin-left: 50px;
+
+  }
+
+
+}
+
+.rect-row_h3 {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 0;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.rect-row_h4 {
+  margin-left: 15px;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.feedback-about {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: #0B132A;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.rect-row-new {
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.rect-row {
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.rect-row_h3-capt {
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #0B132A;
+  font-family: "Rubik", sans-serif;
+}
+
+.feedback-body {
+  display: flex;
+  flex-direction: row;
+  font-family: "Rubik", sans-serif;
+}
+
+.pagination {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.radius {
+  width: 60px;
+  height: 60px;
+  border: solid 2px #F53838;
+  border-radius: 50%;
+  color: #F53838;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  font-size: 24px;
+  transition: box-shadow 0.3s ease;
+  font-family: "Rubik", sans-serif;
+
+  &:hover {
+    box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35),
+    -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
+  }
+
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+}
+
+.radius:not(:last-child) {
+  margin-left: 1000px;
+}
+
+.radius:last-child {
+  background: #F53838;
+  color: #FFFFFF;
+}
+
+.radius + .radius {
+  margin-left: 20px;
+}
+
+.subscriber {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Rubik", sans-serif;
+
+
+  .vpn-hero__desc_all {
+    margin-left: $margin-left;
+    margin-top: 124px;
+
+    .vpn-hero__desc_1 {
+      width: 372px;
+      height: 80px;
+      font-size: 35px;
+      line-height: 45px;
     }
 
-    .vpn-hero__about-footer {
-      width: 340px;
-      height: 61px;
-      margin-left: $margin-left;
-      color: #4F5665;
+    .vpn-hero__about_2 {
+      width: 410px;
+      height: 16px;
       font-size: 16px;
       line-height: 30px;
-
-    }
-
-    .social {
-      display: flex;
-      margin-left: $margin-left;
-
-      .social_facebook {
-        width: 66.6px;
-        height: 66.6px;
-      }
-    }
-
-    .header__logo-footer {
-      margin-left: $margin-left;
-    }
-
-    .menu-footer {
-      margin-left: 100px;
-    }
-
-    .menu-footer li {
-      list-style-type: none;
-    }
-
-    .menu-footer li:first-child {
-      font-weight: 500;
-      color: #0B132A;
-    }
-
-    .menu-footer li:not(:first-child) {
-      font-weight: 400;
       color: #4F5665;
-      margin-top: 20px;
-    }
 
-    .footer_3 {
-      margin-top: 16px;
     }
+  }
+}
 
-    .footer_4 {
-      margin-top: -134px;
+.main-footer {
+  width: 1510px;
+  background: #F8F8F8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+
+  .header__logo-foot {
+    margin-left: $margin-left;
+    margin-top: 122px;
+  }
+
+  .vpn-hero__about-footer {
+    width: 340px;
+    height: 61px;
+    margin-left: $margin-left;
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+
+  }
+
+  .social {
+    display: flex;
+    margin-left: $margin-left;
+
+    .icon {
+      display: inline-block;
+      width: 4em;
+      height: 4em;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
     }
 
   }
+
+  .header__logo-footer {
+    margin-left: $margin-left;
+  }
+
+  .menu-footer {
+    margin-left: 100px;
+  }
+
+  .menu-footer li {
+    list-style-type: none;
+  }
+
+  .menu-footer li:first-child {
+    font-weight: 500;
+    color: #0B132A;
+  }
+
+  .menu-footer li:not(:first-child) {
+    font-weight: 400;
+    color: #4F5665;
+    margin-top: 20px;
+  }
+
+  .footer_3 {
+    margin-top: 16px;
+  }
+
+  .footer_4 {
+    margin-top: -134px;
+  }
+
 }
+
 
 .vpn-hero__desc,
 .vpn-hero__about,
@@ -546,7 +562,7 @@ $margin-top: 50px;
   transform: translate(-120%);
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-play-state: running; /* Запустить анимацию */
+  animation-play-state: running;
   animation-name: slidein;
 }
 
@@ -557,7 +573,7 @@ $margin-top: 50px;
   transform: translate(120%);
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-play-state: running; /* Запустить анимацию */
+  animation-play-state: running;
   animation-name: slideright;
 }
 

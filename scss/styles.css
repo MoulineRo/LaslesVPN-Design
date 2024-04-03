@@ -1,39 +1,34 @@
 @charset "UTF-8";
-.body {
-  width: 1440px;
-  height: 5189px;
-  background: #FFFFFF;
-  font-family: "Rubik", sans-serif;
-}
-.body .header {
+.header {
   display: flex;
   align-items: center;
   margin-top: 50px;
+  font-family: "Rubik", sans-serif;
 }
-.body .header .header__logo {
+.header .header__logo {
   margin-left: 150px;
   width: 149px;
   height: 36.23px;
   font-weight: 500;
 }
-.body .header .menu {
+.header .menu {
   display: flex;
   align-content: center;
   font-weight: 400;
 }
-.body .header .menu:first-child {
+.header .menu:first-child {
   margin-left: 157px;
 }
-.body .header .menu:not(:first-child) {
+.header .menu:not(:first-child) {
   margin-left: 40px;
 }
-.body .header .header_btn_in {
+.header .header_btn_in {
   margin-left: 150px;
   font-weight: 500;
   text-decoration: none;
   color: #0B132A;
 }
-.body .header .line_out {
+.header .line_out {
   margin-left: 75px;
   border-radius: 50px;
   border: solid 1px #F53855;
@@ -46,21 +41,23 @@
   color: #F53855;
   font-weight: 500;
 }
-.body .header .line_out .header_btn_out {
+.header .line_out .header_btn_out {
   text-decoration: none;
   margin-left: 45px;
 }
-.body .vpn-hero {
+
+.vpn-hero {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
   margin-left: 150px;
+  font-family: "Rubik", sans-serif;
 }
-.body .vpn-hero .vpn-hero__img {
+.vpn-hero .vpn-hero__img {
   margin-top: 101.49px;
 }
-.body .vpn-hero .vpn-hero__desc {
+.vpn-hero .vpn-hero__desc {
   width: 555px;
   height: 140px;
   font-size: 50px;
@@ -69,7 +66,7 @@
   color: #0B132A;
   margin-top: 27.66px;
 }
-.body .vpn-hero .vpn-hero__about {
+.vpn-hero .vpn-hero__about {
   height: 60px;
   width: 555px;
   margin-top: 20px;
@@ -78,7 +75,7 @@
   font-size: 16px;
   line-height: 30px;
 }
-.body .vpn-hero .line_out_btn {
+.vpn-hero .line_out_btn {
   margin-top: 50px;
   font-weight: 500;
   text-decoration: none;
@@ -93,14 +90,15 @@
   color: #FFFFFF;
   transition: box-shadow 0.3s ease;
 }
-.body .vpn-hero .line_out_btn:hover {
+.vpn-hero .line_out_btn:hover {
   box-shadow: 0 14px 10px rgba(245, 56, 56, 0.35);
 }
-.body .vpn-hero .line_out_btn .vpn-hero__btn {
+.vpn-hero .line_out_btn .vpn-hero__btn {
   text-decoration: none;
   margin-left: 45px;
 }
-.body .common-info {
+
+.common-info {
   position: relative;
   width: 1140px;
   height: 200px;
@@ -108,37 +106,38 @@
   margin-top: 103px;
   display: flex;
   align-items: center;
+  font-family: "Rubik", sans-serif;
 }
-.body .common-info .common-info__quantity {
+.common-info .common-info__quantity {
   display: flex;
   align-items: center;
 }
-.body .common-info .common-info__quantity .common-info__quantity_pic {
+.common-info .common-info__quantity .common-info__quantity_pic {
   margin-left: 91px;
 }
-.body .common-info .common-info__quantity .common-info__quantity_h3 {
+.common-info .common-info__quantity .common-info__quantity_h3 {
   margin-left: 36.5px;
   font-weight: 700;
   color: #0B132A;
 }
-.body .common-info .common-info__quantity .common-info__quantity_h4 {
+.common-info .common-info__quantity .common-info__quantity_h4 {
   margin-top: -12px;
   margin-left: 36.5px;
   font-weight: 400;
   color: #4F5665;
 }
-.body .common-info .delimiter {
+.common-info .delimiter {
   border: 2px;
   color: #EEEFF2;
   margin-left: 129px;
 }
-.body .common-info .common-info__rec_white {
+.common-info .common-info__rec_white {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
-.body .common-info .common-info__shy_grey {
+.common-info .common-info__shy_grey {
   position: absolute;
   top: 70px;
   left: 0;
@@ -147,46 +146,54 @@
   margin-top: 50px;
   z-index: -2;
 }
-.body .illustration2 {
+
+.illustration2 {
+  font-family: "Rubik", sans-serif;
   flex-direction: row;
   margin-top: 150px;
 }
-.body .vpn-hero__success {
+
+.vpn-hero__success {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  font-family: "Rubik", sans-serif;
 }
-.body .vpn-hero__success .vpn-hero__success_desc {
+.vpn-hero__success .vpn-hero__success_desc {
   margin-left: 10.08px;
   font-weight: 400;
   color: #4F5665;
 }
-.body .vpn-hero__success_desc_plan {
+
+.vpn-hero__success_desc_plan {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  font-family: "Rubik", sans-serif;
 }
-.body .vpn-hero__success_desc_plan .vpn-hero__success_desc_plan_item {
+.vpn-hero__success_desc_plan .vpn-hero__success_desc_plan_item {
   margin-left: 10.08px;
   font-weight: 400;
   color: #4F5665;
 }
-.body .describe_plan {
+
+.describe_plan {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: space-between;
   margin-top: 80.27px;
+  font-family: "Rubik", sans-serif;
 }
-.body .describe_plan .describe_plan__title {
+.describe_plan .describe_plan__title {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
   width: 384px;
   height: 50px;
 }
-.body .describe_plan .describe_plan__desc {
+.describe_plan .describe_plan__desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -194,11 +201,13 @@
   height: 60px;
   color: #4F5665;
 }
-.body .choose_plan {
+
+.choose_plan {
   display: flex;
   justify-content: space-around;
+  font-family: "Rubik", sans-serif;
 }
-.body .choose_plan .box {
+.choose_plan .box {
   margin-left: 150px;
   width: 330px;
   height: 860px;
@@ -207,28 +216,28 @@
   text-align: center;
   transition: box-shadow 0.3s ease;
 }
-.body .choose_plan .box:hover {
+.choose_plan .box:hover {
   box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35), -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
 }
-.body .choose_plan .box .choose_plan__box_pic {
+.choose_plan .box .choose_plan__box_pic {
   margin-top: 79.63px;
 }
-.body .choose_plan .box-pay {
+.choose_plan .box-pay {
   flex-direction: column;
   top: 2575px;
   position: absolute;
   font-size: 25px;
   line-height: 30px;
 }
-.body .choose_plan .box-pay .price {
+.choose_plan .box-pay .price {
   font-weight: 500;
   color: #0B132A; /* цвет для цены */
 }
-.body .choose_plan .box-pay .duration {
+.choose_plan .box-pay .duration {
   font-weight: 400;
   color: #4F5665; /* цвет для продолжительности */
 }
-.body .choose_plan .select-button-outline {
+.choose_plan .select-button-outline {
   top: 2655px;
   position: absolute;
   width: 178px;
@@ -243,51 +252,62 @@
   color: #F53838;
   transition: box-shadow 0.3s ease;
 }
-.body .choose_plan .select-button-outline:hover {
+.choose_plan .select-button-outline:hover {
   box-shadow: 0 14px 10px rgba(245, 56, 56, 0.35);
 }
-.body .illustration3-direction {
+
+.illustration3-direction {
   flex-direction: column;
   text-align: center;
   margin-top: 150px;
+  font-family: "Rubik", sans-serif;
 }
-.body .Sponsored-direction {
+
+.Sponsored-direction {
   flex-direction: column;
   text-align: center;
   margin-top: 0;
+  font-family: "Rubik", sans-serif;
 }
-.body .rect {
+
+.rect {
   width: 450px;
   border-radius: 10px;
   border: solid 2px #DDDDDD;
   margin-top: 60px;
   transition: box-shadow 0.3s ease;
+  font-family: "Rubik", sans-serif;
 }
-.body .rect:hover {
+.rect:hover {
   box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35), -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
 }
-.body .rect:first-child {
+.rect:first-child {
   margin-left: 60px;
 }
-.body .rect:not(:first-child) {
+.rect:not(:first-child) {
   margin-left: 50px;
 }
-.body .rect-row_h3 {
+
+.rect-row_h3 {
   margin-left: 15px;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 0;
+  font-family: "Rubik", sans-serif;
 }
-.body .rect-row_h4 {
+
+.rect-row_h4 {
   margin-left: 15px;
   margin-top: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
   color: #4F5665;
+  font-family: "Rubik", sans-serif;
 }
-.body .feedback-about {
+
+.feedback-about {
   margin-left: 30px;
   margin-right: 20px;
   margin-bottom: 30px;
@@ -295,32 +315,43 @@
   font-weight: 400;
   line-height: 30px;
   font-size: 16px;
+  font-family: "Rubik", sans-serif;
 }
-.body .rect-row-new {
+
+.rect-row-new {
   display: flex;
   align-items: center;
+  font-family: "Rubik", sans-serif;
 }
-.body .rect-row {
+
+.rect-row {
   display: flex;
   align-items: center;
+  font-family: "Rubik", sans-serif;
 }
-.body .rect-row_h3-capt {
+
+.rect-row_h3-capt {
   margin-right: 15px;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: #0B132A;
+  font-family: "Rubik", sans-serif;
 }
-.body .feedback-body {
+
+.feedback-body {
   display: flex;
   flex-direction: row;
+  font-family: "Rubik", sans-serif;
 }
-.body .pagination {
+
+.pagination {
   display: flex;
   margin-left: 30px;
   margin-top: 50px;
 }
-.body .radius {
+
+.radius {
   width: 60px;
   height: 60px;
   border: solid 2px #F53838;
@@ -328,62 +359,70 @@
   color: #F53838;
   text-align: center;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   font-size: 24px;
   transition: box-shadow 0.3s ease;
+  font-family: "Rubik", sans-serif;
 }
-.body .radius:hover {
+.radius:hover {
   box-shadow: 2px 2px 2px 2px rgba(245, 56, 56, 0.35), -2px -2px 2px 2px rgba(245, 56, 56, 0.35);
 }
-.body .material-symbols-outlined {
+
+.material-symbols-outlined {
   cursor: pointer;
 }
-.body .radius:not(:last-child) {
+
+.radius:not(:last-child) {
   margin-left: 1000px;
 }
-.body .radius:last-child {
+
+.radius:last-child {
   background: #F53838;
   color: #FFFFFF;
 }
-.body .radius + .radius {
+
+.radius + .radius {
   margin-left: 20px;
 }
-.body .subscriber {
-  display: flex; /* Устанавливаем контейнер flex */
-  flex-direction: row-reverse; /* Располагаем элементы в ряд */
-  align-items: center; /* Выравниваем элементы по вертикали */
+
+.subscriber {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
   justify-content: space-around;
+  font-family: "Rubik", sans-serif;
 }
-.body .subscriber .vpn-hero__desc_all {
+.subscriber .vpn-hero__desc_all {
   margin-left: 150px;
   margin-top: 124px;
 }
-.body .subscriber .vpn-hero__desc_all .vpn-hero__desc_1 {
+.subscriber .vpn-hero__desc_all .vpn-hero__desc_1 {
   width: 372px;
   height: 80px;
   font-size: 35px;
   line-height: 45px;
 }
-.body .subscriber .vpn-hero__desc_all .vpn-hero__about_2 {
+.subscriber .vpn-hero__desc_all .vpn-hero__about_2 {
   width: 410px;
   height: 16px;
   font-size: 16px;
   line-height: 30px;
   color: #4F5665;
 }
-.body .main-footer {
+
+.main-footer {
   width: 1510px;
   background: #F8F8F8;
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-family: "Rubik", sans-serif;
 }
-.body .main-footer .header__logo-foot {
+.main-footer .header__logo-foot {
   margin-left: 150px;
   margin-top: 122px;
 }
-.body .main-footer .vpn-hero__about-footer {
+.main-footer .vpn-hero__about-footer {
   width: 340px;
   height: 61px;
   margin-left: 150px;
@@ -391,36 +430,40 @@
   font-size: 16px;
   line-height: 30px;
 }
-.body .main-footer .social {
+.main-footer .social {
   display: flex;
   margin-left: 150px;
 }
-.body .main-footer .social .social_facebook {
-  width: 66.6px;
-  height: 66.6px;
+.main-footer .social .icon {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
-.body .main-footer .header__logo-footer {
+.main-footer .header__logo-footer {
   margin-left: 150px;
 }
-.body .main-footer .menu-footer {
+.main-footer .menu-footer {
   margin-left: 100px;
 }
-.body .main-footer .menu-footer li {
+.main-footer .menu-footer li {
   list-style-type: none;
 }
-.body .main-footer .menu-footer li:first-child {
+.main-footer .menu-footer li:first-child {
   font-weight: 500;
   color: #0B132A;
 }
-.body .main-footer .menu-footer li:not(:first-child) {
+.main-footer .menu-footer li:not(:first-child) {
   font-weight: 400;
   color: #4F5665;
   margin-top: 20px;
 }
-.body .main-footer .footer_3 {
+.main-footer .footer_3 {
   margin-top: 16px;
 }
-.body .main-footer .footer_4 {
+.main-footer .footer_4 {
   margin-top: -134px;
 }
 
@@ -430,7 +473,7 @@
   transform: translate(-120%);
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-play-state: running; /* Запустить анимацию */
+  animation-play-state: running;
   animation-name: slidein;
 }
 
@@ -440,7 +483,7 @@
   transform: translate(120%);
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-play-state: running; /* Запустить анимацию */
+  animation-play-state: running;
   animation-name: slideright;
 }
 
